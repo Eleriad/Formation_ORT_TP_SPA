@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titre de la page -->
+    <title>TP SPA</title>
+    <!-- Liens Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Lien evrs la feuille de style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#equipe">Équipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portofolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 1re section : carousel -->
+        <section class="sectionCaroussel">
+            <row class="carousel">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="2500">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-20 img-fluid mx-auto" src="component/img/carousel1.jpg"
+                                alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-20 img-fluid mx-auto" src="component/img/carousel2.jpg"
+                                alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-20 img-fluid mx-auto" src="component/img/carousel3.jpg"
+                                alt="Third slide">
+                        </div>
+                    </div>
+                </div>
+            </row>
+            <br>
+            <hr>
+        </section>
+
+        <!-- 2e section : présentation des services -->
+        <section id="services">
+            <div class="container">
+                <h2>Nos services :</h2>
+                <br />
+                <div class="row">
+                    <div class="col">
+                        <h4>Annihilation de Monstres</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga atque hic delectus expedita,
+                            voluptas enim. Modi fuga laboriosam adipisci consequatur voluptatem rerum quis cupiditate.
+                            Optio ullam est voluptate alias tenetur?
+                        </p>
+                    </div>
+                    <div class="col">
+                        <h4>Recherche des trésors perdus</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga atque hic delectus expedita,
+                            voluptas enim. Modi fuga laboriosam adipisci consequatur voluptatem rerum quis cupiditate.
+                            Optio ullam est voluptate alias tenetur?
+                        </p>
+                    </div>
+                    <div class="col">
+                        <h4>Sauvetage de demoiselles</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga atque hic delectus expedita,
+                            voluptas enim. Modi fuga laboriosam adipisci consequatur voluptatem rerum quis cupiditate.
+                            Optio ullam est voluptate alias tenetur?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <hr>
+        </section>
+
+        <!-- 3e section : Équipe -->
+        <section id="equipe">
+            <div class="container-fluid">
+                <table>
+                    <tr>
+                        <td><img src="component/img/pnj1.jpg" class="rounded"></td>
+                        <td><img src="component/img/pnj3.png" class="rounded"></td>
+                        <td><img src="component/img/pnj2.png" class="rounded"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>Alborn</h5>
+                            <p>Sorcier de niveau 7 <br>
+                                Spécialité : sorts de feu</p>
+                        </td>
+                        <td>
+                            <h5>Ekira</h5>
+                            <p>Roublarde de niveau 8 <br>
+                                Spécialité : détection de pièges</p>
+                        </td>
+                        <td>
+                            <h5>Rodomir</h5>
+                            <p>barde de niveau 6 <br>
+                                Spécialité : chant protecteur</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <hr>
+        </section>
+
+        <!-- 4e section : portfolio -->
+        <section id="portfolio">
+            <div class="container content-center">
+                <div class="row">
+                    <div class=" col col-lg-6 text">
+                        <h4>Notre dernier exploit :</h4>
+                        <h5>La délivrance de la ville de Neverwinter !</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, animi. Animi eveniet
+                            quisquam
+                            assumenda inventore commodi eum vel iusto, magni possimus iste aliquid deleniti ratione et
+                            voluptates enim! Optio, modi!Impedit, consectetur, dicta sint totam adipisci vitae nisi
+                            placeat
+                            laudantium recusandae dolore molestiae ducimus iure. Eum animi ex, quibusdam repellat
+                            consectetur delectus alias nesciunt veniam fuga beatae magnam labore ipsum!
+                            <br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, animi. Animi eveniet
+                            quisquam
+                            assumenda inventore commodi eum vel iusto, magni possimus iste aliquid deleniti ratione et
+                            voluptates enim! Optio, modi!Impedit, consectetur, dicta sint totam adipisci vitae nisi
+                            placeat
+                            laudantium recusandae dolore molestiae ducimus iure. Eum animi ex, quibusdam repellat
+                            consectetur delectus alias nesciunt veniam fuga beatae magnam labore ipsum!
+                        </p>
+
+                    </div>
+                    <div class="col col-lg-6">
+                        <img src="component/img/map.jpg" class="img-fluid picture">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <hr>
+        </section>
+
+        <!-- 5e section : nous contacter -->
+        <section id="contact">
+            <div class="container content-center">
+                <div class="row">
+                    <div class="col col-lg-6">
+                        <img src="component/img/map2.jpg" class="img-fluid picture">
+                        <h4>Passez nous voir...</h4>
+                    </div>
+                    <div class=" col col-lg-6 text">
+                        <h4>ou écrivez-nous :</h4>
+                        <form>
+                            <div class="form-group">
+                                <label for="">Votre nom :</label>
+                                <input type="text" class="form-control" placeholder="merci d'entrer ici votre nom"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Votre prénom :</label>
+                                <input type="text" class="form-control" placeholder="merci d'entrer ici votre prénom"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Votre demande :</label>
+                                <textarea class="form-control" rows="5" id="comment"
+                                    placeholder="merci de nous décrire au mieux votre demande" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-dark">Soumettre votre demande</button>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- infos du footer -->
+        <div class="container-fluid">
+            <div class="row justify-content-center bg-dark">
+                <div class="col col-lg-3 offset-lg-1 text-white">
+                    <h4>Infos</h4>
+                    <p>
+                        Cours Développement Web <br>
+                        Formateur : Dwaps <br>
+                        TP Single Page Application (SPA)
+                    </p>
+                </div>
+                <div class="col col-lg-3 offset-lg-1 text-white centrale">
+                    <h4>Liens :</h4>
+                    <p>
+                        <a href="#">Accueil</a> <br>
+                        <a href="#services">Service</a> <br>
+                        <a href="#equipe">Équipe</a> <br>
+                        <a href="#portfolio">Portofolio</a> <br>
+                        <a href="#contact">Contact</a>
+                    </p>
+                </div>
+                <div class="col col-lg-3 offset-lg-1 text-white">
+                    <h4>Crédits</h4>
+                    <p>
+                        &copy; Fr. Rouffet <br>
+                        Formation <a href="https://orttoulouse.fr/?page_id=4004">ORT</a> CDA 2020 <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- scripts -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    </footer>
+
+</body>
+
+</html>
